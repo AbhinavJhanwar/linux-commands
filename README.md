@@ -60,6 +60,71 @@ Install a file
 bash file_name.sh
 ```
 
+# VIM commands
+Enter vim mode
+```
+vim filename
+```
+Enter edit mode - **press ESC key**
+Enter insert mode	
+```
+:I
+```
+Enter visual mode	
+```
+:V
+```
+Undo changes	
+```
+:U
+```
+Paste	
+```
+:P
+```
+Copy	
+```
+:Y
+```
+Cut	
+```
+:D
+```
+Display line number	
+```
+:set nu
+```
+Set auto indentation	
+```
+:set autoindent
+```
+Search text	(for next press n)
+```
+:search - /"text"
+```
+Exit without saving	
+```
+:Q!
+```
+Quit	
+```
+:Q
+```
+Save as	
+```
+:W "filename"
+```
+Save file	
+```
+:W
+```
+Save and exit	
+```
+:wq
+```
+Copy text- **press	CTRL+SHIFT+v**
+
+
 1)	“pwd”- gives the absolute path of current directory
 2)	“ls”- list files in current directory
 3)	“ls -a”- to see hidden files along with the other files in current directory
